@@ -129,7 +129,8 @@
 }
 
 .info__link {
-  padding: 15px 31px 16px 31px;
+  display: inline-block;
+  padding: 15px 31px;
   background: #0E8784;
   border-radius: 6px;
   text-decoration: none;
@@ -148,7 +149,7 @@
 
 @media (max-width: 450px) {
   .info__link {
-    margin: 0 64.5px;
+    margin-left: 20%;
   }
 }
 
