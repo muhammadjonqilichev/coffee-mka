@@ -15,7 +15,7 @@
 
 @media (max-width: 450px) {
   .container {
-    width: 360px !important;
+    width: 345px;
     margin: 0 auto;
     padding: 0 15px;
   }
@@ -719,12 +719,6 @@
   }
 }
 
-@media (max-width: 450px) {
-  .how-it-works {
-    width: 450px;
-  }
-}
-
 .how-it-works__title {
   font-family: "Fraunces", sans-serif;
   font-weight: 900;
@@ -807,7 +801,7 @@
 @media (max-width: 770px) {
   .how-it-works__block-hw {
     width: 689px;
-    margin: 0 aut   o;
+    margin: 0 auto;
   }
 }
 
@@ -817,7 +811,7 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    width: 327px;
+    width: 360px;
   }
 }
 
@@ -1093,7 +1087,7 @@
 
 @media (max-width: 450px) {
   .container {
-    width: 360px !important;
+    width: 345px;
     margin: 0 auto;
     padding: 0 15px;
   }
@@ -1663,7 +1657,7 @@
 
 @media (max-width: 450px) {
   .container {
-    width: 360px !important;
+    width: 345px;
     margin: 0 auto;
     padding: 0 15px;
   }

@@ -1,7 +1,4 @@
 .how-it-works{
-    @media (max-width:450px) {
-        width: 450px;
-    }
 }
 .how-it-works__title{
     font-family: $font2;
@@ -54,11 +51,11 @@
     margin: 0 auto;
     @media (max-width: 770px) {
         width: 689px;
-        margin: 0 aut   o;
+        margin: 0 auto;
     }
     @media (max-width:450px) {
         flex-direction: column;
-        width: 327px
+        width: 360px
     }
     .block__box-hw{
         width: 285px;
