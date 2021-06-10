@@ -1,0 +1,13 @@
+@import './block/general';
+@import './block/general-2';
+@import './block/general-3';
+body{
+    font-family:  "Barlow" ,sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: #333D4B;
+    line-height: 26px;
+}
+*{
+    margin: 0;
+}

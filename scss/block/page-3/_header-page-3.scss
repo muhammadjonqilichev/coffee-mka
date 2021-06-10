@@ -1,0 +1,87 @@
+$silver: #83888F;
+.header{
+    margin-bottom: 130px;
+    .header__nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 43px 0px;
+        .nav__menu{
+            display: flex;
+            align-items: center;
+            list-style-type: none;
+            .nav__menu--link{
+                text-decoration: none;
+                font-weight: bold;
+                font-size: 12px;
+                line-height: 15px;
+                letter-spacing: 0.923077px; 
+                text-transform: uppercase;
+                color: $silver;
+                margin-left: 32px; 
+                &:hover{
+                    color: rgb(83, 156, 199);
+                }
+            }
+        }
+    }
+    .head__main{
+        background-image: url('/img-page-2/intro-3-img.png');
+        height: 313px;
+        padding-top: 137px;
+        padding-left: 85px;
+        background-position: top center;
+        background-size:  cover;
+        background-repeat: no-repeat;
+        border-radius: 10px;    
+        @media (max-width: 770px) { 
+            padding-top: 137px;
+            padding-left: 58px;
+            margin: 0;
+        }
+        @media (max-width:450px) {
+            width: 327px;
+            height: 400px;
+            padding: 0;
+            margin: 0 auto;
+        }
+        .main__title{
+            font-family: $font2;
+            font-weight: 900;
+            font-size: 72px;
+            line-height: 72px;
+            color: #FEFCF7;
+            @media (max-width:770px) {
+                font-size:  32px;
+                line-height: 40px;
+            }
+            @media (max-width:450px){
+                font-size: 40px;
+                line-height: 40px;
+                text-align: center;
+                padding-top: 101px;
+                margin-bottom: 22px;
+            }
+        }
+        .main__text{
+            width: 445px;
+            color: #FEFCF7;
+            opacity: 0.8;
+            @media (max-width:770px) {
+                width: 398px;
+                line-height: 25px;
+            }
+            @media (max-width:450px){
+                font-size: 15px;
+                line-height: 25px;
+                text-align: center;
+                width: 279px;
+                margin: 0 auto  ;
+            }
+        }
+    }
+}
+
+
+
+

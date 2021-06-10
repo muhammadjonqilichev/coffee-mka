@@ -1,0 +1,133 @@
+.headquarters__title{
+    font-family: $font2;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #83888F;
+    margin-bottom: 167px;
+    padding-left: 85px;
+    @media (max-width:770px) {
+        padding-left: 0;
+    }
+    @media (max-width:450px) {
+        text-align: center;
+    }
+}
+.headquarters__main{
+    display: flex;
+    align-items: center;
+    margin-bottom: 168px;
+    padding-left: 85px;
+    @media (max-width:770px){
+        margin-bottom: 144px;
+        padding-left: 0;    
+    }
+    @media (max-width:450px) {
+        flex-direction: column;
+        margin-bottom: 0px;
+    }
+    .box__title-uk{
+        font-family: $font2;
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 36px;
+        color: #333D4B;
+        margin-right: 108px;
+        text-transform: capitalize;
+        margin-bottom: 24px;
+        position: relative;
+        &:before{
+            content: url('/img-page-2/united-kingdom.svg');
+            position: absolute;
+            top: -90px;
+            left: 0;
+            @media (max-width:450px) {
+                left: 0;
+                right: 0;   
+            }
+        }
+        @media (max-width:770px) {
+            width: 223px;
+            margin-bottom: 21px;
+            font-size: 24px;
+            line-height: 36px;
+            margin-right: 9px;
+        }
+        @media (max-width:450px) {
+            text-align: center;
+        }
+    }
+    .box__title-cd{
+        width: 255px;
+        font-family: $font2;
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 36px;
+        color: #333D4B;
+        text-transform: capitalize;
+        margin-bottom: 24px;
+        margin-right: 125px;
+        position: relative;
+        &:before{
+            content: url('/img-page-2/canada.svg');
+            position: absolute;
+            top: -90px;
+            left: 0;
+            @media (max-width:450px) {
+                left: 0;
+                right: 0;       
+            }
+        }
+        @media (max-width:770px) {
+            width: 93px;
+            margin-bottom: 21px;
+            font-size: 24px;
+            line-height: 36px;
+            margin-right: 140px;
+            padding-left: 0;
+        }
+        @media (max-width:450px) {
+            text-align: center;
+            margin-top: 177px;
+            margin-right: 0;
+        }
+    }
+    .box__title-au{
+        font-family: $font2;
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 36px;
+        color: #333D4B;
+        text-transform: capitalize;
+        margin-bottom: 24px;
+        position: relative;
+        &:before{
+            content: url('/img-page-2/australia.svg');
+            position: absolute;
+            top: -90px;
+            left: 0;
+            @media (max-width:450px) {
+                left: 0;
+                right: 0;   
+            }
+        }
+        @media (max-width:770px) {
+            margin-bottom: 21px;
+            font-size: 24px;
+            line-height: 36px;
+        }
+        @media (max-width:450px) {
+            text-align: center;
+            margin-top: 177px;
+        }
+    }
+    .box__text{
+        display: flex;
+        flex-direction: column;
+        .text{
+            @media (max-width:450px){
+                text-align: center;
+            }
+        }
+    }
+}
